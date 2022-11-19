@@ -1,10 +1,10 @@
-# gdbrowser.py
+# gd_browser.py
 Web-API for [gdbrowser.com](https://gdbrowser.com) website that lets you browse all of Geometry Dash's online features
 
 ## Example
 ```python3
-import gdbrowser
-gdBrowser = gdbrowser.GDBrowser()
-user_info = gdBrowser.get_user_profile(username="")
-print(f"-- User accountID is::: {user_info['accountID']")
+import gd_browser
+gd_browser = gd_browser.GDBrowser()
+user_info = gd_browser.get_user_profile(username="")
+print(user_info)
 ```
